@@ -4,7 +4,7 @@ const Navbar = () => {
         <nav className="flex justify-between items-center px-16 py-4 w-full border-b border-[#455A64]">
             <div className="flex items-center z-20">
                 {/* <img src="/path-to-logo.svg" alt="Logo" className="w-10 h-10 mr-2" /> */}
-                <span className="text-white font-bold">BrandedSwap</span>
+                <span className="text-white font-bold">SwapX</span>
             </div>
 
             {/* Links in the middle */}
@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
 
             {/* Button on the right */}
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 z-20">
+            <button className="h-[50px] w-[150px] bg-[rgba(20,93,160,1)] text-white px-4 py-2 rounded-lg hover:bg-blue-700 z-20">
                 Wallet
             </button>
         </nav>

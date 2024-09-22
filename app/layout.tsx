@@ -48,7 +48,7 @@ export default function RootLayout({
           }}
         />
         <Navbar />
-        <main>
+        <main className="relative z-20 min-h-screen overflow-y-auto">
           {children}
         </main>
       </body>
